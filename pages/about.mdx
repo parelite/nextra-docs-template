@@ -1,3 +1,35 @@
 # About
 
 This is the about page! This page is shown on the navbar.
+
+import {
+  Accordion,
+  Card,
+  CodeGroup,
+  Warning,
+  CodeBlock,
+} from "@mintlify/components";
+
+<Accordion title="test">
+    <CodeGroup>
+        <CodeBlock filename="Syntax">
+            ```javascript Syntax
+            ,antinuke admin (user)
+            ```
+        </CodeBlock>
+
+        <CodeBlock filename="Example">
+            ```javascript Syntax
+            ,antinuke admin (user)
+            ```
+        </CodeBlock>
+    </CodeGroup>
+
+</Accordion>
+
+<Warning>
+  Discord recently implemented a new **mass ban** feature which can quickly ban
+  **100+ members**. It's **HIGHLY** recommended to utilizie [fake
+  permissions](/security/fake-permissions) to prevent moderators from using this
+  feature.
+</Warning>

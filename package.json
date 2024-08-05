@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/shuding/nextra-docs-template#readme",
   "dependencies": {
+    "@headlessui/react": "^2.1.2",
+    "@mintlify/components": "^0.3.15",
     "next": "^13.0.6",
     "nextra": "latest",
     "nextra-theme-docs": "latest",
